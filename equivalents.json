@@ -1,0 +1,4 @@
+{
+  "$comment": "Mutants marked ignored. Each entry is an EQUIVALENT mutant (no test can observe it) with the reason. Never add an entry to dodge a survivor you can name a bug for; write the test instead.",
+  "equivalents": []
+}

@@ -1,0 +1,7 @@
+{
+  "scopes": { "bash": ["scripts/admit.sh"], "ts": [], "go": [] },
+  "oracle": { "testGlobs": ["tests/*.oracle.sh"], "runner": ["bash"], "overrides": {} },
+  "numericSkipCommands": ["sleep"],
+  "equivalents": "equivalents.json",
+  "gremlins": { "module": "github.com/go-gremlins/gremlins", "version": "v0.6.0" }
+}
