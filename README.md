@@ -7,6 +7,8 @@ The command is called `changeling`. It mutates code, runs your tests against
 each mutant, and reports which mutants your tests failed to notice. A surviving
 mutant means a bug your tests would let through.
 
+Write-up: [Mutation testing scoped to a diff, and why survivors need a written reason](https://unlicensedthought.com/writing/mutation-testing-scoped-to-a-diff/)
+
 ## The problem
 
 A green test suite says the tests pass. It does not say they would fail if the
